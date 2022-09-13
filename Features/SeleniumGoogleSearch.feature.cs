@@ -71,11 +71,13 @@ namespace SpecFlowProject1.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Search Selenium in Google and verify first result", new string[] {
-                "Google"}, SourceLine=4)]
+                "Google",
+                "Web"}, SourceLine=4)]
         public virtual void SearchSeleniumInGoogleAndVerifyFirstResult()
         {
             string[] tagsOfScenario = new string[] {
-                    "Google"};
+                    "Google",
+                    "Web"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search Selenium in Google and verify first result", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
@@ -112,11 +114,13 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Search Google in Google and verify first result", new string[] {
-                "Google"}, SourceLine=10)]
+                "Google",
+                "Web"}, SourceLine=10)]
         public virtual void SearchGoogleInGoogleAndVerifyFirstResult()
         {
             string[] tagsOfScenario = new string[] {
-                    "Google"};
+                    "Google",
+                    "Web"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search Google in Google and verify first result", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 11

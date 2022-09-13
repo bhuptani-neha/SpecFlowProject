@@ -3,6 +3,7 @@ using SpecFlowProject1.Pages;
 using System.Linq;
 using TechTalk.SpecFlow;
 using FluentAssertions;
+using System;
 
 namespace SpecFlowProject1.Steps
 {
@@ -16,6 +17,7 @@ namespace SpecFlowProject1.Steps
 
         public SeleniumGoogleSearchStepDefinition(BrowserDriver browserDriver, ScenarioContext scenarioContext)
         {
+            Console.WriteLine("In Browser Calculator Steps");
             googlePage = new GooglePageObject(browserDriver.Current);
             this._scenarioContext = scenarioContext;
         }

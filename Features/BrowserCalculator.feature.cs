@@ -73,7 +73,8 @@ namespace SpecFlowProject1.Features
         public virtual void AddTwoNumbersPermutations(string firstNumber, string secondNumber, string expectedResult, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Calculator"};
+                    "Calculator",
+                    "Web"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -121,7 +122,8 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers permutations, 0", new string[] {
-                "Calculator"}, SourceLine=12)]
+                "Calculator",
+                "Web"}, SourceLine=12)]
         public virtual void AddTwoNumbersPermutations_0()
         {
 #line 5
@@ -130,7 +132,8 @@ this.AddTwoNumbersPermutations("0", "0", "0", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers permutations, -1", new string[] {
-                "Calculator"}, SourceLine=12)]
+                "Calculator",
+                "Web"}, SourceLine=12)]
         public virtual void AddTwoNumbersPermutations_1()
         {
 #line 5
@@ -139,7 +142,8 @@ this.AddTwoNumbersPermutations("-1", "10", "9", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers permutations, 6", new string[] {
-                "Calculator"}, SourceLine=12)]
+                "Calculator",
+                "Web"}, SourceLine=12)]
         public virtual void AddTwoNumbersPermutations_6()
         {
 #line 5
@@ -150,7 +154,8 @@ this.AddTwoNumbersPermutations("6", "9", "15", ((string[])(null)));
         public virtual void ResetNumberFunctionality(string firstNumber, string secondNumber, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "Calculator"};
+                    "Calculator",
+                    "Web"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -203,7 +208,8 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Reset Number functionality, 0", new string[] {
-                "Calculator"}, SourceLine=27)]
+                "Calculator",
+                "Web"}, SourceLine=27)]
         public virtual void ResetNumberFunctionality_0()
         {
 #line 18

@@ -1,7 +1,7 @@
 ﻿Feature: BrowserCalculator
 	Simple calculator for adding two numbers online using Selenium
 
-@Calculator
+@Calculator @Web
 Scenario Outline: Add two numbers permutations
 	Given the first number is <First number>
 	And the second number is <Second number>
@@ -14,7 +14,7 @@ Examples:
 	| -1           | 10            | 9               |
 	| 6            | 9             | 15              |
 
-@Calculator
+@Calculator @Web
 Scenario Outline: Reset Number functionality
 	Given the first number is <First number>
 	And the second number is <Second number>

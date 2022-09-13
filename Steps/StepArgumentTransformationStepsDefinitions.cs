@@ -20,18 +20,6 @@ namespace SpecFlowProject1.Steps
             _scenarioContext = scenarioContext;
         }
 
-        [Given("the first number is (.*)")]
-        public void GivenTheFirstNumberIs(int number)
-        {
-            //TODO: implement arrange (precondition) logic
-            // For storing and retrieving scenario-specific data see https://go.specflow.org/doc-sharingdata 
-            // To use the multiline text or the table argument of the scenario,
-            // additional string/Table parameters can be defined on the step definition
-            // method. 
-
-            _scenarioContext.Pending();
-        }
-
         [StepArgumentTransformation(@"(?:([a-zA-Z]+) month)")]
         public TimeSpan convertMonthToDays(string month)
         {

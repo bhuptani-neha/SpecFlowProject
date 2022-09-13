@@ -2,16 +2,18 @@
 using SpecFlowProject1.Pages;
 using FluentAssertions;
 using TechTalk.SpecFlow;
+using System;
 
 namespace SpecFlowProject1.Steps
 {
-    [Binding]
+    [Binding, Scope(Tag = "Web")]
     public sealed class BrowserCalculatorStepDefinitions
     {
         private readonly CalculatorPageObject calculatorPageObject;
 
         public BrowserCalculatorStepDefinitions(BrowserDriver browserDriver)
         {
+            Console.WriteLine("In Browser Steps");
             calculatorPageObject = new CalculatorPageObject(browserDriver.Current);
         }
 
