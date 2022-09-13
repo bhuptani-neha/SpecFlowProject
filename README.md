@@ -12,5 +12,5 @@ Usage of the concepts of
 3. Hooks
 4. Integration with Selenium
 5. Tags
-6. Multiple step definition for the same steps
+6. Same step definition for the multiple steps at different places
 7. Scenario Context
