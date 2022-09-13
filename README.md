@@ -14,3 +14,4 @@ Usage of the concepts of
 5. Tags
 6. Same step definition for the multiple steps at different places
 7. Scenario Context
+8. StepArgumentTransformation
