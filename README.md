@@ -16,3 +16,4 @@ Usage of the concepts of
 7. Scenario Context
 8. StepArgumentTransformation
 9. Scoped Bindings
+10. Context Injection
